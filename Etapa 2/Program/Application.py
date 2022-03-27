@@ -1,6 +1,5 @@
 import csv
 import random
-import unidecode
 
 
 class Application:
@@ -42,8 +41,7 @@ class Application:
                     'U', 'V', 'W', 'X', 'Y', 'Z']
 
         encoded_name = input("\nDigite o nome a ser codificado: ").upper()
-        # Remove the accents
-        encoded_name = unidecode.unidecode(encoded_name)
+
         name_list = []
         year = ''
         school = ''
